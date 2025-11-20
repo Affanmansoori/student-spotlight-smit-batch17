@@ -1,0 +1,104 @@
+/* ================================
+   Global Root Variables
+================================ */
+:root {
+  /* Colors */
+  --primary-color: #4b7bec;
+  --primary-dark: #3867d6;
+  --secondary-color: #a5b1c2;
+  --light-color: #f5f6fa;
+  --dark-color: #1e272e;
+  --text-color: #2f3640;
+  --white: #ffffff;
+
+  /* Background Colors */
+  --bg-main: #ffffff;
+  --bg-secondary: #f1f2f6;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #4b7bec, #3867d6);
+  --gradient-dark: linear-gradient(135deg, #1e272e, #2f3640);
+
+  /* Typography */
+  --font-family: "Poppins", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+
+  --h1-size: 3rem;
+  --h2-size: 2.2rem;
+  --h3-size: 1.6rem;
+  --text-size: 1rem;
+  --small-text: 0.9rem;
+
+  /* Spacing */
+  --section-padding: 80px 20px;
+  --container-width: 1200px;
+
+  /* UI */
+  --radius: 12px;
+  --circle-radius: 50%;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  /* Transition */
+  --transition: 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--dark-color);
+    color: var(--bg-secondary);
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color:var(--bg-secondary);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.text{
+    padding: 60px;
+    margin: 10px;
+}
+button{
+  
+    padding: 20px;
+    background-color: var(--secondary-color) !important;
+    border-radius: 13px;
+    color: var(--dark-color) !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.image img{
+     width: 500px;
+     border-radius: 20px;
+     margin-right: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin: 20px;
+}
+.text h2{
+    padding-bottom: 35px;
+}
+
